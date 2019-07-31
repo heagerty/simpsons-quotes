@@ -8,6 +8,30 @@
   pointer-events: none;
 }
 
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.working {
+  animation: App-logo-spin infinite 2s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.relaxing {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -33,7 +33,7 @@ const quotes = [
 const Quotes = () => (
     <div>
         {quotes.map(quote => (
-            <Quote quote={quote.quote} image={quote.image} character={quote.character} />
+            <Quote quote={quote.quote} key={quote.quote} image={quote.image} character={quote.character} />
         ))}
     </div>
 );
